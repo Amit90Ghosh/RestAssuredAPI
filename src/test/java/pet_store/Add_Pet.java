@@ -20,9 +20,9 @@ public class Add_Pet {
 	@Test(priority=1)
 	void addNewPet() {
 		
-		
 		jo.put("id", id);
-		jo.put("name", "dog");
+		jo.put("name", name);
+		//jo.setCategory().setId(id);
 		jo.put("status", "available");
 		
 		
